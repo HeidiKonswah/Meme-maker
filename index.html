@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Meme Maker</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+	</head>
+	
+	<body>
+		
+		<div id="image-container">
+			<canvas width="500" height="500"></canvas>
+			<div id="form">
+			<div>
+				<span>Upload image: </span> <br>
+				<input type="file" id="file" />
+			</div>
+			<div>
+				<span>Top line:</span></br>
+				<input id="topLineText" type="text"></input></br>
+			</div>
+			<div>
+				<span>Bottom line:</span></br>
+				<input id="bottomLineText" type="text"></input></br>
+			</div>
+			<button id="saveBtn">Save</button>
+			</div>
+		</div>
+		
+		
+		<script src="script.js"></script>
+	</body>
+</html>
